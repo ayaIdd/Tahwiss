@@ -1,0 +1,146 @@
+:root{
+ 
+ --bodyColor : rgb(240,240,246);
+ --gradientColor : linear-gradient(to right,hsl(187,85%,43%),hsl(199,100%,33%));
+ --SecondaryColor : hsl(187,85%,43%);
+ --blackColor : hsl(201,33%,16%);
+ --WhiteColorDeam : hsl(0,0%,93%);
+ --background: linear-gradient(180deg, rgba(34, 34, 34, 0.31) 0%, rgba(0, 0, 0, 0.00) 100%);
+
+} 
+
+
+.header {
+ position: fixed;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background: var(--background);
+ width: 100%;
+ padding: .5rem;
+ z-index: 1000;
+
+ .navLists{
+  flex-direction: row ;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding: .5rem  0;
+  color:azure;
+  .navItem{
+   padding:0 1rem 0 1rem ; 
+  .navLink{
+   color: var(--textcolor);
+   font-size: .9rem;
+   font-weight: 200;}
+ }
+}
+.closeNavbar{
+ font-size: 0px;
+ position: absolute;
+ top: -4rem;
+ right:1.5rem;
+ color: var(--PrimaryColor);
+ }
+ 
+
+.logo{
+  display: flex; /* Add this line */
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-decoration-line: none;
+  cursor: pointer;
+
+
+  .icon{
+   font-size: 38px;
+   color: white;
+   transform: translate(5px);
+   
+
+  }
+ }
+
+ @media screen and (max-width: 786px){
+  .navBar{
+   position :absolute;
+   background: var(--WhiteColorDeam);
+   height: max-content;
+   width: 80%;
+   border-radius: 1rem;
+   padding:1rem ;
+   top: -500rem;
+   left : 50%;
+   transform: translate(-50%); 
+   z-index: 2000;
+   box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+   transition: .5s ease-in-out;
+  }
+
+   .navLists{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: .5rem 0;
+    .navItem{
+     padding: .5rem 0;
+
+     .navLink{
+      color: var(--textcolor);
+      font-size: .9rem;
+      font-weight: 600;
+      &:hover{
+       color: var(--PrimaryColor);
+      }
+     }
+    }
+
+    .btn{
+     margin-top: 1rem;
+       
+     a{
+     font-weight: 600; 
+     color: var(--WhiteColorDeam);
+     } 
+ 
+    }
+
+    
+   }
+
+   .closeNavbar{
+    position: absolute;
+    top: 1rem;
+    right:1.5rem;
+    color: var(--PrimaryColor);
+    &:hover{
+      color: var(--SecondaryColor);
+    }
+
+   }
+   .activeNavbar{
+    top:7rem;
+   }
+  
+  
+  
+  }
+
+  .toggleNavbar{
+   .icon{
+    font-size: 16px;
+    
+    color:white;
+
+   }
+   &:hover.icon{
+    color:whitesmoke;
+   }
+
+  }
+
+}

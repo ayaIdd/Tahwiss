@@ -1,0 +1,114 @@
+.Articledetails-container {
+ position: relative;
+ width: 100%;
+ height: 300px;
+ margin-top: 5%;
+ 
+
+}
+
+.cardardet {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+}
+
+.cardardet img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover; 
+}
+
+.photo-overlay {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.photo-overlay h1 {
+ position: absolute;
+ color: white;
+ font-size: 30px;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 500;   
+ margin-top: 180px; 
+ margin-left: 100px;  
+}
+
+.photo-overlay p {
+ position: absolute;
+ color: white;
+ font-size: 30px;
+ font-weight: bold;
+ margin-top: 210px;  
+ margin-left: 100px;   
+}
+
+
+
+
+.second-container{
+ position: relative;
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+}
+
+
+.photo-section {
+ position: relative;
+ width: 40%;
+ height: 70%;
+ overflow: hidden;
+ margin-top: 4%;
+ margin-left:55%;
+}
+
+.second-container img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover; 
+ border-radius: 20px;
+}
+
+
+
+.second-container  .paragraphdetailar{
+ color: black;
+ font-size: 15px;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+ width: 40%;
+ margin-top: -195px;
+ margin-left: 8%;
+ align-items: center;
+
+}  
+
+
+.photo-section1 {
+ position: relative;
+ width: 40%;
+ height: 70%;
+ overflow: hidden;
+ margin-top: 4%;
+ margin-left:8%;
+}
+
+
+.second-container  .paragraphdetailar1{
+ color: black;
+ font-size: 15px;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+ width: 40%;
+ margin-top: -198px;
+ margin-left: 55%;
+ line-height: 27px;
+
+}  

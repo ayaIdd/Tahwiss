@@ -1,0 +1,9 @@
+:root{
+--bgcolor :rgba(34, 34, 34, 0.53);
+
+}
+ 
+.Background{
+
+ background: var(--bgcolor);
+}

@@ -1,0 +1,159 @@
+.custom-slider .slick-slide {
+ margin-right: 20px;
+ 
+} 
+.containerArts{
+margin-top:-150px;
+}
+.custom-arrow2 {
+ display: block;
+ background: black;
+position: absolute;
+top: 18%;  
+}
+.titlerestaurant{
+margin-left: 35px;
+}
+
+.load-more-button2 {
+width: 128.28px;
+height: 58px;
+position: absolute;
+top: 328%;
+left: 46%;
+}
+
+.load-more-button2 button {
+width: 100%;
+height: 100%;
+background-color: white;
+border: 1px solid rgba(29, 118, 74, 1);
+border-radius: 8px;
+color: rgba(29, 118, 74, 1);
+font-weight: bold;
+}
+
+.load-more-button2 button:hover {
+width: 100%;
+height: 100%;
+background-color: rgb(16, 97, 57);;
+border: 1px solid rgba(29, 118, 74, 1);
+border-radius: 8px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+}
+
+
+
+
+
+
+
+.adore-square1 {
+width: 35px;
+height: 35px;
+background-color: rgba(219, 238, 254, 1);
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -194px;
+left: 91.5%;
+}
+
+.adore-square:hover {
+background-color: rgba(200, 220, 240, 1); 
+}
+
+.adore-square:active{
+background-color: rgba(150, 200, 230, 1); 
+}
+
+.adore-icon {
+width: 15px;
+height: 15px;
+cursor: pointer; 
+color: rgba(29, 118, 74, 1);
+
+}
+
+
+.cardt{
+height: 225px;
+cursor: pointer;
+}
+
+.cardt:focus {
+outline: none;
+}
+
+.cardt {
+position: relative;
+}
+
+.cardt::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); /* Fond initial transparent */
+transition: background-color 0.3s ease; /* Ajoutez une transition pour un effet en douceur */
+z-index: 0; /* Placez-le en dessous du contenu */
+}
+
+.cardt:hover::before {
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.cardt .card-body {
+position: relative; /* Assurez-vous que le contenu est positionné relativement */
+z-index: 1; /* Placez-le au-dessus de la superposition */
+}
+
+.additional-details {
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.cardt:hover .additional-details {
+display: block;
+}
+
+.details-button {
+padding: 8px 16px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 145px;
+height: 58px;
+position: absolute;
+top: -130px;
+left: -75px;
+background-color: white;
+border: 1px solid rgba(29, 118, 74, 1);
+border-radius: 8px;
+color: rgba(29, 118, 74, 1);
+font-weight: bold;
+
+}
+
+.adore-square1a{
+    width: 35px;
+height: 35px;
+background-color: rgba(219, 238, 254, 1);
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -227px;
+left: 91.5%;
+}

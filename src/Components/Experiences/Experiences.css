@@ -1,0 +1,424 @@
+
+.titleexp{
+ position: absolute;
+ margin-left: 35px;
+ margin-top: -50px;
+}
+
+.custom-sliderexp{
+ display: flex;
+ margin-bottom: 5px;
+ margin-top: 50px;
+
+}
+
+.columnexp {
+ width: 200px;
+ margin-right: 10px;
+
+ 
+}
+
+.columnexp:last-child {
+ margin-right: 0;
+}
+
+
+.cardexp{
+position: relative;
+ width:100%;
+ margin-bottom: -20px;
+ margin-left: 180px;
+ margin-top: 30px;
+ border-radius: 20px;
+}
+
+.cardexp img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.card-exp1 {
+ height: 150px;
+}
+
+.card-exp2 {
+ height: 280px;
+}
+
+.card-exp3 {
+ height: 440px;
+}
+
+.card-exp4 {
+ height: 140px;
+}
+
+.card-exp5 {
+ height: 140px;
+
+}
+
+.card-exp6 {
+ height: 140px;
+}
+
+.card-exp7 {
+ height: 280px;
+}
+
+.card-exp8 {
+ height: 150px;
+}
+
+.load-more-buttonexp {
+ width: 128.28px;
+ height: 58px;
+ position: absolute;
+ top: 455%;
+ left: 46%;
+}
+.load-more-buttonexp button {
+ width: 100%;
+ height: 100%;
+ background-color: white;
+ border: 1px solid rgba(29, 118, 74, 1);
+ border-radius: 8px;
+ color: rgba(29, 118, 74, 1);
+ font-weight: bold;
+}
+
+.load-more-buttonexp button:hover {
+ width: 100%;
+ height: 100%;
+ background-color: rgb(16, 97, 57);;
+ border: 1px solid rgba(29, 118, 74, 1);
+ border-radius: 8px;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+}
+
+
+
+.adore-square18 {
+width: 35px;
+height: 35px;
+background-color: rgba(219, 238, 254, 1);
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -150px;
+left: 82.5%;
+}
+
+
+
+
+.adore-square17{
+width: 35px;
+height: 35px;
+background-color: rgba(219, 238, 254, 1);
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -280px;
+left: 82.5%;
+}
+
+.adore-square13{
+width: 35px;
+height: 35px;
+background-color: rgba(219, 238, 254, 1);
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -440px;
+left: 82.5%;
+}
+
+.adore-square456{
+width: 35px;
+height: 35px;
+background-color: rgba(219, 238, 254, 1);
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: -140px;
+left: 82.5%;
+}
+
+
+
+.adore-square:hover {
+background-color: rgba(200, 220, 240, 1); 
+}
+
+.adore-square:active{
+background-color: rgba(150, 200, 230, 1); 
+}
+
+.adore-icon {
+width: 15px;
+height: 15px;
+cursor: pointer; 
+color: rgba(29, 118, 74, 1);
+}
+
+
+
+
+
+
+
+.card-exp1::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); /* Fond initial transparent */
+transition: background-color 0.3s ease; /* Ajoutez une transition pour un effet en douceur */
+z-index: 0; 
+}
+
+.card-exp1:hover::before {
+background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent au survol */
+}
+
+.additional-details-exp {
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+
+}
+
+.card-exp1:hover .additional-details-exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.details-button-exp{
+padding: 8px 16px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 145px;
+height: 58px;
+position: absolute;
+top: -30px;
+left: -75px;
+background-color: white;
+border: 1px solid rgba(29, 118, 74, 1);
+border-radius: 8px;
+color: rgba(29, 118, 74, 1);
+font-weight: bold;
+
+}
+
+
+.custom-link {
+text-decoration: none;
+color: inherit;
+}
+
+
+.card-exp2::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); /* Fond initial transparent */
+transition: background-color 0.3s ease; /* Ajoutez une transition pour un effet en douceur */
+z-index: 0; 
+}
+.card-exp2:hover::before {
+background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent au survol */
+}
+.card-exp2:hover .additional-details-exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+
+
+.card-exp3::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); /* Fond initial transparent */
+transition: background-color 0.3s ease; /* Ajoutez une transition pour un effet en douceur */
+z-index: 0; 
+}
+.card-exp3:hover::before {
+background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent au survol */
+}
+.card-exp3:hover .additional-details-exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+
+.card-exp4::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); /* Fond initial transparent */
+transition: background-color 0.3s ease; /* Ajoutez une transition pour un effet en douceur */
+z-index: 0; 
+}
+.card-exp4:hover::before {
+background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent au survol */
+}
+.card-exp4:hover .additional-details-exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+.card-exp5::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); /* Fond initial transparent */
+transition: background-color 0.3s ease; /* Ajoutez une transition pour un effet en douceur */
+z-index: 0; 
+}
+.card-exp5:hover::before {
+background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent au survol */
+}
+.card-exp5:hover .additional-details-exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+
+.card-exp6::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); 
+transition: background-color 0.3s ease;
+z-index: 0; 
+}
+.card-exp6:hover::before {
+background-color: rgba(0, 0, 0, 0.5); 
+}
+.card-exp6:hover .additional-details-exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+
+.card-exp7::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0);
+transition: background-color 0.3s ease; 
+z-index: 0; 
+}
+.card-exp7:hover::before {
+background-color: rgba(0, 0, 0, 0.5); 
+}
+.card-exp7:hover .additional-details-exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+
+.card-exp8::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); 
+transition: background-color 0.3s ease; 
+z-index: 0; 
+}
+.card-exp8:hover::before {
+background-color: rgba(0, 0, 0, 0.5); 
+}
+.card-exp8:hover .additional-details-exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
